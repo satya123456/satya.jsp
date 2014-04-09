@@ -1,12 +1,34 @@
-*.class
-
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
-
-# Package Files #
-*.jar
-*.war
-*.ear
-
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
-hs_err_pid*
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<%@ page import="java.sql.*" %> 
+<%@ page import="java.io.*" %> 
+ <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" 
+"http://www.w3.org/TR/html4/loose.dtd" > 
+<HTML>
+<HEAD>
+   
+</HEAD>
+<BODY bgcolor="#ffffcc">
+    <FORM action="" method="get"  name="f1">
+    <TABLE style="background-color: #ECE5B6;" WIDTH="30%" >
+    
+      <TR>
+	      <TH width="50%">Name</TH>
+		  <TD width="50%"><INPUT TYPE="text" NAME="name"></TD>
+	  </tr>
+      <TR>
+	     <TH width="50%">City</TH>
+		 <TD width="50%"><INPUT TYPE="text" NAME="city"></TD>
+	  </tr>
+	  <TR>
+	     <TH width="50%">Phone</TH>
+		 <TD width="50%"><INPUT TYPE="text" NAME="phone"></TD>
+	  </tr>
+	  
+	  <TR>
+	      <TH></TH>
+		  <TD width="50%"><INPUT TYPE="submit" VALUE="submit"></TD>
+	  </tr>
+   </TABLE>
+<%
+System.out.println("entering.......");%>
